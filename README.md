@@ -11,7 +11,7 @@ To run the server locally:
 1. Open the platform project directory - https://github.com/vadlit/platform
 2. Call `mvn clean install` in order to install the platform into your local m2 repository. More about mvn repositories - https://maven.apache.org/guides/introduction/introduction-to-repositories.html
 3. Return to this project (`opening-hours`) and build it `mvn clean package`
-4. Run the application: through IDE or in your terminal like any other Java/Kotlin application: `java -cp "opening-hours-1.0.0-SNAPSHOT.jar" -classpath "<YOUR CLASS PATH>" ru.vadlit.openinghours.OpeningHoursApplication`
+4. Run the application: through IDE (main class is ru.vadlit.openinghours.OpeningHoursApplication) or in your terminal like any other Java/Kotlin application: `java -cp "opening-hours-1.0.0-SNAPSHOT.jar" -classpath "<YOUR CLASS PATH>" ru.vadlit.openinghours.OpeningHoursApplication`
 5. Your server is ready in a few seconds!
 
 ## Destination

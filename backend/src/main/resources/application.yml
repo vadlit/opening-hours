@@ -1,0 +1,10 @@
+server:
+  port: ${appPort:9500}
+
+logging:
+  level:
+    org:
+      springframework:
+        web: WARN
+    ru:
+      vadlit: DEBUG

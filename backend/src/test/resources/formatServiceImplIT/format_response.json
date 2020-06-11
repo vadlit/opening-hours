@@ -1,0 +1,11 @@
+{
+  "formatted_days": {
+    "monday": "Closed",
+    "tuesday": "10 AM - 6 PM",
+    "wednesday": "Closed",
+    "thursday": "10 AM - 6 PM",
+    "friday": "10 AM - 1 AM",
+    "saturday": "10 AM - 1 AM",
+    "sunday": "12 PM - 9 PM"
+  }
+}

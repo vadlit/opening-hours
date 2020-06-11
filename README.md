@@ -3,7 +3,16 @@
 This is a backend server providing pretty formatted information about opening hours of a restaurant.
 
 ## How to run
-Just run the application, and your server is ready in a few seconds!
+The service uses the platform provided in a separated repository as they usually do: https://github.com/vadlit/platform
+
+CI/CD is not provided.
+
+To run the server locally: 
+1. Open the platform project directory
+2. Call `mvn clean install` in order to install the platform into your local m2 repository. More about mvn repositories - https://maven.apache.org/guides/introduction/introduction-to-repositories.html
+3. Return to this project (`opening-hours`) and build it `mvn clean package`
+4. Run the application: through IDE or in your terminal like any other Java/Kotlin application: `java -cp "opening-hours-1.0.0-SNAPSHOT.jar" -classpath "<YOUR CLASS PATH>" ru.vadlit.openinghours.OpeningHoursApplication`
+5. Your server is ready in a few seconds!
 
 ## Destination
 The server listens to 9500 port by default, but you can change it in the configuration.
